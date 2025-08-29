@@ -4,5 +4,39 @@
         <name>EcommerceApi</name>
     </assembly>
     <members>
+        <member name="M:EcommerceApi.Controllers.ClientesController.PostCliente(EcommerceApi.Models.Cliente)">
+            <summary>
+            Cria um novo cliente.
+            </summary>
+            <param name="cliente">Dados do cliente a ser criado.</param>
+            <returns>Cliente criado.</returns>
+        </member>
+        <member name="M:EcommerceApi.Controllers.ClientesController.GetClientes">
+            <summary>
+            Retorna todos os clientes cadastrados.
+            </summary>
+            <returns>Lista de clientes.</returns>
+        </member>
+        <member name="M:EcommerceApi.Controllers.ClientesController.GetCliente(System.Int32)">
+            <summary>
+            Busca um cliente pelo ID.
+            </summary>
+            <param name="id">ID do cliente.</param>
+            <returns>Cliente correspondente ou erro 404.</returns>
+        </member>
+        <member name="M:EcommerceApi.Controllers.PedidosController.PostPedido(EcommerceApi.DTO.PedidoRequest)">
+            <summary>
+            Cria um novo pedido.
+            </summary>
+            <param name="request">DTO contendo ClienteId e Itens.</param>
+            <returns>Pedido criado com status 201.</returns>
+        </member>
+        <member name="M:EcommerceApi.Controllers.PedidosController.GetPedido(System.Int32)">
+            <summary>
+            Retorna os detalhes de um pedido específico.
+            </summary>
+            <param name="id">ID do pedido</param>
+            <returns>Detalhes do pedido com cliente e itens.</returns>
+        </member>
     </members>
 </doc>

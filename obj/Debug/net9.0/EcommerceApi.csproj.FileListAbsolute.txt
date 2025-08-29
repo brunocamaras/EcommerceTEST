@@ -239,3 +239,4 @@ C:\Users\b.santos\OneDrive - Techscan\Área de Trabalho\test\APICLIENT\Ecommerce
 C:\Users\b.santos\OneDrive - Techscan\Área de Trabalho\test\APICLIENT\EcommerceApi\EcommerceApi\obj\Debug\net9.0\EcommerceApi.pdb
 C:\Users\b.santos\OneDrive - Techscan\Área de Trabalho\test\APICLIENT\EcommerceApi\EcommerceApi\obj\Debug\net9.0\EcommerceApi.genruntimeconfig.cache
 C:\Users\b.santos\OneDrive - Techscan\Área de Trabalho\test\APICLIENT\EcommerceApi\EcommerceApi\obj\Debug\net9.0\ref\EcommerceApi.dll
+C:\Users\b.santos\OneDrive - Techscan\Área de Trabalho\test\APICLIENT\EcommerceApi\EcommerceApi\obj\Debug\net9.0\EcommerceApi.sourcelink.json
